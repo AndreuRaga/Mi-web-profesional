@@ -22,5 +22,26 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section>
+            <h2>Contacto</h2>
+            <form method="POST" action="contacto.php" aria-label="Formulario de contacto">
+                <fieldset>
+                    <legend>Información personal</legend>
+
+                    <label for="name">Nombre:</label>
+                    <input id="name" type="text" name="name" placeholder="Tu nombre" required>
+                        
+                    <label for="email">Correo electrónico:</label>
+                    <input id="email" type="email" name="email" placeholder="TuEmail@gmail.com" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </fieldset>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>

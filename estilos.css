@@ -1,17 +1,27 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 20px;
-    padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
     display: flex;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    flex-direction: row;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 2.5em;
+    color: #333;
 }
 
 h1 a {
     text-decoration: none;
     color: #333;
+}
+
+nav {
+    padding: 20px 0;
 }
 
 nav ul {
