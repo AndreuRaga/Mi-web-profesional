@@ -20,6 +20,11 @@ h1 a {
     color: #333;
 }
 
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
 nav {
     padding: 20px 0;
 }
@@ -30,4 +35,31 @@ nav ul {
     justify-content: center;
     padding: 0;
     gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+article img {
+    border-radius: 50%;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
 }
