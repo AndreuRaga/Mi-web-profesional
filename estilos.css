@@ -1,6 +1,10 @@
 /* General*/
 body {
     font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -10,7 +14,6 @@ header {
     gap: 40px;
     padding: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    margin: 0 auto;
     position: sticky;
     top: 0;
     background-color: rgb(64, 93, 252);
@@ -60,6 +63,7 @@ main {
     max-width: 1000px;
     margin: 30px auto;
     padding: 0 20px;
+    flex: 1;
 }
 
 footer {
