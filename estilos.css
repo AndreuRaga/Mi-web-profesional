@@ -1,4 +1,4 @@
-/* General*/
+/* General */
 body {
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -94,7 +94,7 @@ footer a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
-/*Fin General*/
+/* Fin General */
 
 h2 {
     text-align: center;
@@ -156,8 +156,10 @@ figure {
     height: 100%;
     border: none;
 }
+/* Fin Sobre mí */
 
-/* Formulario de Contacto */
+
+/* Contacto */
 .contacto-section {
     padding: 30px;
     border-radius: 8px;
@@ -228,4 +230,4 @@ button:hover {
 .requerido {
     color: red;
 }
-
+/* Fin Contacto */
