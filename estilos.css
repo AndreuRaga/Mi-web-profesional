@@ -114,7 +114,12 @@ h2 {
 
 .proyecto h3 {
     text-align: center;
+}
+
+.proyecto h3 a,
+.proyecto h3 a:visited {
     color: rgb(64, 93, 252);
+    text-decoration: none;
 }
 
 .proyecto figure {
