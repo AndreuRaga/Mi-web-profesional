@@ -124,12 +124,18 @@ h2 {
 
 .proyecto h3 {
     text-align: center;
+    margin: 0;
+    font-size: 1.6rem;
 }
 
 .proyecto h3 a,
 .proyecto h3 a:visited {
     color: rgb(64, 93, 252);
     text-decoration: none;
+}
+
+.proyecto h3 a:hover {
+    color: black;
 }
 
 .proyecto-resumen {
