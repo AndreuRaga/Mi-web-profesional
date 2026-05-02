@@ -112,14 +112,14 @@ h2 {
 
 /* Proyectos */
 .proyecto {
-    display: flex;
-    flex-direction: column;
+    display: block;
     gap: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .proyecto h3 {
@@ -159,10 +159,16 @@ h2 {
 }
 
 .proyecto-info {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 260px;
     background-color: #fff;
     padding: 15px;
     border-radius: 5px;
     border-left: 5px solid rgb(64, 93, 252);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .proyecto-info h4 {
