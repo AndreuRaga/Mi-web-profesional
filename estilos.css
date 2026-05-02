@@ -158,25 +158,25 @@ h2 {
     line-height: 1.5;
 }
 
-.tecnologias, .caracteristicas, .arquitectura, .logros {
+.proyecto-info {
     background-color: #fff;
     padding: 15px;
     border-radius: 5px;
     border-left: 5px solid rgb(64, 93, 252);
 }
 
-.tecnologias h4, .caracteristicas h4, .arquitectura h4, .logros h4 {
+.proyecto-info h4 {
     margin-top: 0;
     color: rgb(64, 93, 252);
     font-size: 1.2em;
 }
 
-.tecnologias ul, .caracteristicas ul, .arquitectura ul, .logros ul {
+.proyecto-info ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-.tecnologias li, .caracteristicas li, .arquitectura li, .logros li {
+.proyecto-info li {
     margin: 5px 0;
 }
 /* Fin Proyectos */
