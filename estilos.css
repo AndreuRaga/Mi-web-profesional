@@ -100,6 +100,61 @@ h2 {
     text-align: center;
 }
 
+/* Proyectos */
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.proyecto h3 {
+    text-align: center;
+    color: rgb(64, 93, 252);
+}
+
+.proyecto figure {
+    text-align: center;
+}
+
+.descripcion {
+    background-color: #e8f4fd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.descripcion p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.tecnologias, .caracteristicas, .arquitectura, .logros {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid rgb(64, 93, 252);
+}
+
+.tecnologias h4, .caracteristicas h4, .arquitectura h4, .logros h4 {
+    margin-top: 0;
+    color: rgb(64, 93, 252);
+    font-size: 1.2em;
+}
+
+.tecnologias ul, .caracteristicas ul, .arquitectura ul, .logros ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tecnologias li, .caracteristicas li, .arquitectura li, .logros li {
+    margin: 5px 0;
+}
+/* Fin Proyectos */
+
 /* Sobre mí */
 .about-section h2 {
     margin-bottom: 0;
