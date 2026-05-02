@@ -134,7 +134,7 @@ h2 {
 
 .proyecto-resumen {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
 }
