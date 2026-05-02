@@ -139,11 +139,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-.proyecto figure {
-    text-align: center;
-    flex: 0 0 220px;
-}
-
 .descripcion {
     background-color: #e8f4fd;
     padding: 15px;
