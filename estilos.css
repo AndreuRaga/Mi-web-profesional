@@ -1,3 +1,4 @@
+/* General*/
 body {
     margin: 0;
     padding: 0;
@@ -18,12 +19,6 @@ header {
     z-index: 100;
 }
 
-main {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
-
 h1 {
     margin: 0;
     font-size: 2.5em;
@@ -35,6 +30,41 @@ h1 a {
     color: white;
     font-weight: bold;
 }
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #1d2638;
+    color: #e4e9ff;
+    padding: 30px 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div p {
+    margin: 0.3em 0;
+}
+
+footer a {
+    color: #8ab4ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/*Fin General*/
 
 h2 {
     text-align: center;
@@ -83,30 +113,3 @@ article div p {
     margin-bottom: 15px;
 }
 
-footer {
-    background-color: #1d2638;
-    color: #e4e9ff;
-    padding: 30px 20px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer div {
-    text-align: center;
-}
-
-footer div p {
-    margin: 0.3em 0;
-}
-
-footer a {
-    color: #8ab4ff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
