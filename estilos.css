@@ -161,6 +161,7 @@ h2 {
 .proyecto-info {
     display: inline-block;
     vertical-align: top;
+    width: 48%;
     min-width: 260px;
     background-color: #fff;
     padding: 15px;
