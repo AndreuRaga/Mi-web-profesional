@@ -84,8 +84,29 @@ article div p {
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #1d2638;
+    color: #e4e9ff;
+    padding: 30px 20px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div p {
+    margin: 0.3em 0;
+}
+
+footer a {
+    color: #8ab4ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
