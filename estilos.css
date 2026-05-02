@@ -192,3 +192,8 @@ button:hover {
     box-shadow: 0 4px 12px rgba(64, 93, 252, 0.4);
 }
 
+.requerido {
+    color: red;
+    font-weight: bold;
+}
+
