@@ -50,6 +50,12 @@ nav a:hover {
     border-bottom: 2px solid yellow;
 }
 
+.pagActual {
+    color: yellow;
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+    border-bottom: 2px solid yellow;
+}
+
 main {
     max-width: 1000px;
     margin: 30px auto;
