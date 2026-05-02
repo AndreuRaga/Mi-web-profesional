@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-color: white;
 }
 
 header {
@@ -121,5 +122,73 @@ article div p {
     text-align: justify;
     line-height: 1.6;
     margin-bottom: 15px;
+}
+
+/* Formulario de Contacto */
+.contacto-section {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: rgb(64, 93, 252);
+    box-shadow: 0 0 8px rgba(64, 93, 252, 0.3);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: rgb(64, 93, 252);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: rgb(50, 70, 200);
+    box-shadow: 0 4px 12px rgba(64, 93, 252, 0.4);
 }
 
