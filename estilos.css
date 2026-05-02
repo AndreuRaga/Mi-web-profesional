@@ -101,6 +101,10 @@ h2 {
 }
 
 /* Sobre mí */
+.about-section h2 {
+    margin-bottom: 0;
+}
+
 article {
     display: flex;
     gap: 20px;
