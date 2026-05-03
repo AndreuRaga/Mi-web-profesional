@@ -180,7 +180,7 @@ main section h2 {
 }
 
 /* Contacto y perfil */
-#contacto-presentacion {
+#contacto-perfil {
     display: inline-flex;
     gap: 15px;
     justify-content: center;
