@@ -360,7 +360,8 @@ li {
 }
 
 .proyecto h3 a:hover {
-    color: black;
+    color: rgb(50, 70, 200);
+    text-decoration: underline;
 }
 
 .proyecto-resumen {
