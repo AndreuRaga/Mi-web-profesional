@@ -248,6 +248,17 @@ main section h2 {
     width: 50%;
 }
 
+#formacion p,
+#experiencia p {
+    margin: 0;
+    color: #555;
+}
+
+#formacion p:first-child,
+#experiencia p:first-child {
+    font-weight: bold;
+}
+
 /* Listas */
 ul {
     padding-left: 20px;
