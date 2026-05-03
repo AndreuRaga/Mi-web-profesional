@@ -249,8 +249,7 @@ li {
 }
 
 /* Idiomas e intereses */
-#idiomas ul,
-#intereses ul {
+#idiomas-intereses {
     columns: 2;
 }
 
