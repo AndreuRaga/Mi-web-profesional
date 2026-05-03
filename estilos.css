@@ -175,6 +175,7 @@ main section h2 {
     border-bottom: 2px solid rgb(64, 93, 252);
     padding-bottom: 5px;
     margin-bottom: 15px;
+    margin-top: 0;
     color: rgb(64, 93, 252);
 }
 
