@@ -8,6 +8,7 @@ body {
     background-color: white;
 }
 
+/* Encabezado */
 header {
     display: flex;
     align-items: center;
@@ -60,6 +61,8 @@ nav a:hover {
     text-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
     border-bottom: 2px solid yellow;
 }
+/* Fin Encabezado */
+
 
 main {
     max-width: 1000px;
@@ -67,7 +70,7 @@ main {
     padding: 0 20px;
     flex: 1;
 }
-
+/* Pie de página */
 footer {
     background-color: #1d2638;
     color: #e4e9ff;
@@ -95,6 +98,7 @@ footer a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
+/* Fin Pie de página */
 /* Fin General */
 
 h2 {
