@@ -220,6 +220,10 @@ main section h2 {
     margin-bottom: 5px;
 }
 
+#formacion h3 {
+    width: 50%;
+}
+
 /* Listas */
 ul {
     padding-left: 20px;
