@@ -236,6 +236,10 @@ li {
     flex-wrap: wrap;
 }
 
+#habilidades h2 {
+    width: 100%;
+}
+
 #habilidades > div {
     flex: 1;
     min-width: 250px;
