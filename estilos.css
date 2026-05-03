@@ -255,6 +255,10 @@ li {
 }
 
 /* Botón descarga */
+#descarga-cv {
+    text-align: center;
+}
+
 #descarga-cv a {
     display: inline-block;
     background-color: rgb(64, 93, 252);
