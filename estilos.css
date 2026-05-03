@@ -331,6 +331,7 @@ li {
 
 #descarga-cv a:hover {
     background-color: rgb(50, 70, 200);
+    box-shadow: 0 4px 12px rgba(64, 93, 252, 0.4);
 }
 /* Fin Currículum */
 
