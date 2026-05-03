@@ -248,6 +248,10 @@ main section h2 {
     width: 50%;
 }
 
+#experiencia h3, #experiencia div {
+    width: 32%;
+}
+
 #formacion p,
 #experiencia p {
     margin: 0;
