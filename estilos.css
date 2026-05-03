@@ -179,6 +179,13 @@ main section h2 {
     color: rgb(64, 93, 252);
 }
 
+/*Nombre*/
+#nombre {
+    text-align: center;
+    background-color: white;
+    box-shadow: none;
+}
+
 /* Contacto y perfil */
 #contacto-perfil {
     display: inline-flex;
