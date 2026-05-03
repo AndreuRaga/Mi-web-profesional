@@ -186,6 +186,16 @@ main section h2 {
     box-shadow: none;
 }
 
+#foto-contacto img {
+    width: 140px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+#foto-contacto {
+    width: 450px;
+}
+
 /* Contacto y perfil */
 #contacto-perfil {
     display: inline-flex;
@@ -195,7 +205,7 @@ main section h2 {
 
 /* Perfil */
 #perfil p {
-    text-align: center;
+    text-align: justify;
     font-size: 1.1rem;
     max-width: 700px;
     margin: 0 auto;
