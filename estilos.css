@@ -186,10 +186,10 @@ main section h2 {
     box-shadow: none;
 }
 
-#foto-contacto img {
+#foto img {
     width: 140px;
     display: block;
-    margin: 0 auto 10px;
+    margin: 0 auto;
 }
 
 #foto-contacto {
