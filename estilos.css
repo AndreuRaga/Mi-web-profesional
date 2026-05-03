@@ -189,8 +189,17 @@ main section h2 {
     text-align: center;
     background-color: white;
     box-shadow: none;
+    font-size: 1.5rem;
+    margin:auto 0;
 }
 
+#nombre-perfil {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Foto */
 #foto img {
     width: 140px;
     display: block;
